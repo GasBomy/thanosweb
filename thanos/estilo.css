@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(./images/demon.jpeg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: center;
+
+
+}
+
+header{
+	width: 100%;
+	font-size: 20px ;
+	display: flex;
+	color: grey;
+	justify-content: space-between;
+	margin-right: 80px;
+	margin-bottom: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+	backdrop-filter: blur(10px);
+	align-items: center;
+}
+
+.logo{
+	color: white;
+	user-select: none;
+
+
+}
+
+.navegator a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 8px;
+
+	
+}
+@media (hover: hover){
+.navegator a:hover{
+	color: black;
+	background: white;
+	transform: scale(5.0);
+
+
+ }
+
+.navegator a:active{
+	color: white;
+	background: rgb(21.914, 41.836, 41.67);
+
+
+}
+
+}
+.principal {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.img {
+	position: center;
+	width: 400px;
+	height: 450px;
+	margin: 20px 40px;
+	border-radius: 20%;
+
+
+}
+
+.img:hover {
+	transform: scale(1.1);
+	transition: 5s;
+}
+
+.login{
+	width: 400px;
+	height: 450px;
+	backdrop-filter: blur(50px);
+	border: black solid;
+	border-radius: 20%;
+	margin: 20px 40px;
+	padding: 40px;
+	padding-bottom: 100px;
+	align-items: center;
+	
+
+
+}
+
+
+
+
+.sign-in{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	justify-content: center;
+	user-select: none;
+
+
+}
+
+div .login{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+
+form{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+
+.box-empa {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: black solid;
+	display: flex;
+
+}
+
+.box-empa input{
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	border: none;
+	outline: none;
+	text-align: center ;
+}
+@media (hover: hover){
+	.box-empa input:hover{
+		transform: scale(0.9);
+		cursor: grab;
+
+  }
+}
+.box-empa input:active{
+	cursor: grabbing;
+}
+
+.bu button {
+	color: white;
+	padding: 10px;
+	margin-left: 65px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+
+
+}
+@media (hover: hover) {
+.bu button:hover {
+	color: black;
+	background: white;
+	border-radius: 5px;
+  }
+}
+
+.bu button:active {
+	color: white;
+	background: rgb(21.914, 41.836, 41.67);
+}
+
+.register{
+	color: white;
+	text-align:center ;
+}
+
+.forget{
+	color: white;
+}
